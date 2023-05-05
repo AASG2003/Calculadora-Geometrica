@@ -6,5 +6,57 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".activity_menu" android:background="#3F51B5">
+    <androidx.gridlayout.widget.GridLayout
+            android:layout_width="360dp"
+            android:layout_height="660dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent">
 
+        <Button
+                android:text="Cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp" app:layout_row="3" app:layout_column="0"
+                android:id="@+id/btnCuadrado" android:width="102dp"
+                android:drawableStart="@drawable/ic_launcher_background" android:textSize="11dp"/>
+        <TextView
+                android:text="Figuras 2D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_row="2" app:layout_column="0"
+                app:layout_columnSpan="4"
+                android:id="@+id/tvFig2d" android:textSize="34sp" android:textAlignment="center"
+                android:textStyle="bold"/>
+        <Button
+                android:text="Cubo"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp" app:layout_row="1" app:layout_column="0"
+                android:id="@+id/btnCubo" android:width="102dp"
+                android:drawableStart="@drawable/ic_launcher_background"/>
+        <Button
+                android:text="Esfera"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp" app:layout_row="1" app:layout_column="1"
+                android:id="@+id/btnEsfera" android:width="102dp"/>
+        <Button
+                android:text="Circulo"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp" app:layout_row="3" app:layout_column="1"
+                android:id="@+id/btnCirculo" android:width="102dp"/>
+        <Button
+                android:text="Cilindro"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp" app:layout_row="1" app:layout_column="2"
+                android:id="@+id/btnCilindro" android:width="102dp" android:textSize="13dp"/>
+        <Button
+                android:text="Triangulo"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp" app:layout_row="3" app:layout_column="2"
+                android:id="@+id/btnTriangulo" android:width="102dp" android:textSize="11dp"/>
+        <TextView
+                android:text="Figuras 3D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_row="0" app:layout_column="0"
+                app:layout_columnSpan="4"
+                android:id="@+id/tvFig3d" android:textSize="34sp" android:textAlignment="center"
+                android:textStyle="bold"/>
+    </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
