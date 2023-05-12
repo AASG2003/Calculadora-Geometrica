@@ -124,7 +124,7 @@ class activity_circulo : AppCompatActivity() {
                         val areaDouble = Math.PI * radioDouble * radioDouble
                         val diametroDouble = 2 * radioDouble
                         area.setText(areaDouble.toString())
-                        radio.setText(circunferenciaDouble.toString())
+                        radio.setText(radioDouble.toString())
                         diametro.setText(diametroDouble.toString())
                     } else {
                         area.setText("")
