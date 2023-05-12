@@ -27,18 +27,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="202dp" app:srcCompat="@drawable/ic_launcher_foreground"
                 android:id="@+id/imageView2"/>
+        <TextView
+                android:text="Lado:"
+                android:layout_width="match_parent"
+                android:layout_height="36dp" android:id="@+id/textView2" android:textSize="20sp"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/etLado" android:hint="Lado" android:textSize="30dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp" android:id="@+id/textView4" android:textSize="20sp" android:text="Area:"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/etArea" android:hint="Area" android:textSize="30dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp" android:id="@+id/textView5" android:textSize="20sp"
+                android:text="Perimetro: "/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

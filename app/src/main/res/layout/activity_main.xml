@@ -5,21 +5,50 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity" android:background="#3F51B5">
+        tools:context=".MainActivity">
     <TextView
             android:text="Calculadora geometrica"
-            android:layout_width="213dp"
-            android:layout_height="92dp" android:id="@+id/tvTituloApp"
+            android:layout_width="283dp"
+            android:layout_height="157dp" android:id="@+id/tvTituloApp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.122"
-            android:textAlignment="center" android:textSize="34sp" android:textStyle="bold"/>
+            app:layout_constraintVertical_bias="0.229"
+            android:textAlignment="center" android:textSize="34sp" android:textStyle="bold"
+            android:background="@drawable/custom_button"/>
     <Button
             android:text="Ingresar"
             android:layout_width="174dp"
             android:layout_height="61dp" android:id="@+id/btnIngresar"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/tvTituloApp"
-            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.376"
-            android:background="@color/teal_700" android:textColor="#000000"/>
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.408"
+            android:background="@drawable/custom_button" android:textColor="#000000"/>
+    <ImageView
+            android:layout_width="108dp"
+            android:layout_height="106dp" app:srcCompat="@drawable/circle" android:id="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.033"
+            app:layout_constraintVertical_bias="0.006"/>
+    <ImageView
+            android:layout_width="154dp"
+            android:layout_height="148dp" app:srcCompat="@drawable/circle" android:id="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintVertical_bias="0.915"/>
+    <ImageView
+            android:layout_width="117dp"
+            android:layout_height="117dp" app:srcCompat="@drawable/circle" android:id="@+id/imageView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.945"
+    />
+    <ImageView
+            android:layout_width="88dp"
+            android:layout_height="92dp" app:srcCompat="@drawable/circle" android:id="@+id/imageView7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintVertical_bias="0.974"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
