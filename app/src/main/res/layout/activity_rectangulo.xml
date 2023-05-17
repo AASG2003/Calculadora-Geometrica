@@ -16,7 +16,7 @@
             app:flow_horizontalAlign="center"
     >
         <TextView
-                android:text="Triangulo Rectangulo"
+                android:text="Rectangulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/textView"
                 android:textSize="40dp" android:textAlignment="center"
@@ -25,7 +25,7 @@
         />
         <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="202dp" app:srcCompat="@drawable/triangulo"
+                android:layout_height="202dp" app:srcCompat="@drawable/rectangulo"
                 android:id="@+id/imageView2"/>
         <TextView
                 android:text="Base: "

@@ -7,10 +7,10 @@ import android.text.TextWatcher
 import android.widget.EditText
 import android.widget.TextView
 
-class activity_triangulo : AppCompatActivity() {
+class activity_rectangulo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_triangulo)
+        setContentView(R.layout.activity_rectangulo)
 
         val base = findViewById<EditText>(R.id.etBase)
         val altura = findViewById<EditText>(R.id.etAltura)
@@ -22,9 +22,8 @@ class activity_triangulo : AppCompatActivity() {
             val alturaDouble = altura.text.toString().toDoubleOrNull()
 
             if (baseDouble != null && alturaDouble != null) {
-                val areaTriangulo = (baseDouble * alturaDouble) / 2.0
-                val hipotenusa = Math.sqrt((baseDouble * baseDouble) + (alturaDouble * alturaDouble))
-                val perimetroTriangulo = baseDouble + alturaDouble + hipotenusa
+                val areaTriangulo = (baseDouble * alturaDouble)
+                val perimetroTriangulo = 2 * (baseDouble + alturaDouble)
 
                 area.text = areaTriangulo.toString()
                 perimetro.text = perimetroTriangulo.toString()

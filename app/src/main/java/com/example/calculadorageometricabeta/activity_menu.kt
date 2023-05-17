@@ -16,6 +16,8 @@ class activity_menu : AppCompatActivity() {
         val cubo = findViewById<Button>(R.id.btnCubo)
         val esfera = findViewById<Button>(R.id.btnEsfera)
         val cilindro = findViewById<Button>(R.id.btnCilindro)
+        val cono = findViewById<Button>(R.id.btnCono)
+        val rectangulo = findViewById<Button>(R.id.btnRectangulo)
         cuadrado.setOnClickListener {
             val mostrar = Intent(this, activity_cuadrado::class.java)
             startActivity(mostrar)
@@ -43,6 +45,16 @@ class activity_menu : AppCompatActivity() {
 
         cilindro.setOnClickListener {
             val mostrar = Intent(this, activity_cilindro::class.java)
+            startActivity(mostrar)
+        }
+
+        cono.setOnClickListener {
+            val mostrar = Intent(this, activity_cono::class.java)
+            startActivity(mostrar)
+        }
+
+        rectangulo.setOnClickListener {
+            val mostrar = Intent(this, activity_rectangulo::class.java)
             startActivity(mostrar)
         }
     }

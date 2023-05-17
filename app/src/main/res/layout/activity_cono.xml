@@ -9,14 +9,14 @@
 
     <LinearLayout
             android:orientation="vertical"
-            android:layout_width="360dp"
-            android:layout_height="660dp"
+            android:layout_width="348dp"
+            android:layout_height="684dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:flow_horizontalAlign="center"
     >
         <TextView
-                android:text="Triangulo Rectangulo"
+                android:text="Cono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/textView"
                 android:textSize="40dp" android:textAlignment="center"
@@ -25,28 +25,38 @@
         />
         <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="202dp" app:srcCompat="@drawable/triangulo"
+                android:layout_height="202dp" app:srcCompat="@drawable/cono"
                 android:id="@+id/imageView2"/>
         <TextView
-                android:text="Base: "
+                android:text="Radio: "
                 android:layout_width="match_parent"
                 android:layout_height="36dp" android:id="@+id/textView2" android:textSize="20sp"/>
         <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="51dp"
                 android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/etBase" android:hint="Base" android:textSize="30dp"/>
+                android:id="@+id/etRadio" android:hint="Radio" android:textSize="30dp"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="36dp" android:id="@+id/textView4" android:textSize="20sp"
                 android:text="Altura:"/>
         <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="49dp"
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/etAltura" android:hint="Altura" android:textSize="30dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp" android:id="@+id/textView6" android:textSize="20sp"
+                android:text="Altura Inclinada:"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/etAlturaInc" android:hint="Altura Inclinada" android:textSize="30dp"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="36dp" android:id="@+id/textView5" android:textSize="20sp"
@@ -60,13 +70,13 @@
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="36dp" android:id="@+id/tvVolumen" android:textSize="20sp"
-                android:text="Perimetro:"/>
+                android:text="Volumen:"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/etPerimetro" android:hint="Volumen" android:textSize="30dp"/>
+                android:id="@+id/etVolumen" android:hint="Volumen" android:textSize="30dp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
