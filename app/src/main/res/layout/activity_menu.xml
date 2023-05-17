@@ -35,9 +35,15 @@
                 android:background="@drawable/custom_button"/>
         <Button
                 android:text="Esfera"
-                android:layout_width="121dp"
+                android:layout_width="120dp"
                 android:layout_height="74dp" app:layout_row="1" app:layout_column="1"
                 android:id="@+id/btnEsfera" android:width="102dp"
+                android:background="@drawable/custom_button"/>
+        <Button
+                android:text="Cilindro"
+                android:layout_width="112dp"
+                android:layout_height="74dp" app:layout_row="1" app:layout_column="2"
+                android:id="@+id/btnCilindro" android:width="102dp"
                 android:background="@drawable/custom_button"/>
         <Button
                 android:text="Circulo"
