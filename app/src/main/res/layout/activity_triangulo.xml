@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/etPerimetro" android:hint="Volumen" android:textSize="30dp"/>
+                android:id="@+id/etPerimetro" android:hint="Perimetro" android:textSize="30dp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

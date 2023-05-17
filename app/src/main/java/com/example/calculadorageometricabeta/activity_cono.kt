@@ -25,7 +25,7 @@ class activity_cono : AppCompatActivity() {
             val alturaIncDouble = alturaInc.text.toString().toDoubleOrNull()
 
             if (radioDouble != null && alturaDouble != null && alturaIncDouble != null) {
-                val areaCono = (PI * radioDouble * (radioDouble * alturaIncDouble))
+                val areaCono = (PI * radioDouble * (radioDouble + alturaIncDouble))
                 val volumenCono = (Math.PI * radioDouble * radioDouble * alturaDouble) / 3.0
                 area.text = areaCono.toString()
                 volumen.text = volumenCono.toString()
